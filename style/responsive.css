@@ -1,0 +1,154 @@
+@media (max-width: 1400px) {
+    .banner_right .green_circle{
+        /* position: absolute; */
+        /* top: 6rem; */
+        right: 15rem;
+    }
+    
+    .banner_right .yellow_circle{
+        /* position: absolute;
+        bottom: 34rem; */
+        left: 8.5rem;
+    }
+    
+    .banner_right .safe_circle{
+        /* position: absolute;
+        bottom: 21.5rem; */
+        right: 8.5rem;
+    
+    }
+}
+@media (max-width: 1200px) {
+    .banner_heading {
+        font-size: 7rem;
+        font-weight: 700;
+        line-height: 8rem;
+        
+    }
+    .landing_footer_banner span{
+        font-size: 4rem;
+    }
+    .banner_right .green_circle{
+        /* position: absolute; */
+        /* top: 6rem; */
+        /* right: 15rem; */
+        width: 70px;
+    }
+    
+    .banner_right .yellow_circle{
+        /* position: absolute; */
+        bottom: 28rem;
+        left: 7.5rem;
+        width: 40px;
+    }
+    
+    .banner_right .safe_circle{
+        /* position: absolute; */
+        bottom: 18rem;
+        right: 7rem;
+        width: 50px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .active {
+        text-underline-offset: 0.5rem !important;
+    }
+    .banner_heading {
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 7rem;
+    }
+    
+    .banner_prea {
+        font-size: 2rem;
+        margin: 1.5rem 0rem;
+    }
+    .banner_button button{
+        width: 32rem;
+    }
+    .landing_service .big_heading {
+        font-size: 6rem;
+        margin: 10rem 0rem;
+    }
+    .service_box h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .start{
+        font-size: 2rem;
+    }
+
+    .banner_right .user_chat{
+        width: 500px;
+        height: 500px;
+    }
+    .banner_right .green_circle{
+        /* position: absolute; */
+        /* top: 6rem; */
+        /* right: 15rem; */
+        /* width: 70px; */
+    }
+    
+    .banner_right .yellow_circle{
+        /* position: absolute; */
+        /* bottom: 28rem;
+        left: 7.5rem;
+        width: 40px; */
+    }
+    
+    .banner_right .safe_circle{
+        /* position: absolute; */
+        bottom: 16.5rem;
+        /* right: 7rem;
+        width: 50px; */
+    }
+
+}
+
+@media (max-width: 768px) {
+    .achievement_heading{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .achievement_subheading{
+        font-size: 2rem;
+    }
+    .service_box img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .banner_right .green_circle{
+        /* position: absolute; */
+        /* top: 6rem; */
+        right: 25em;
+        /* width: 70px; */
+    }
+    
+    .banner_right .yellow_circle{
+        /* position: absolute; */
+        bottom: 27em;
+        left: 19em;
+        /* width: 40px; */
+    }
+    
+    .banner_right .safe_circle{
+        /* position: absolute; */
+        /* bottom: 16.5rem; */
+        right: 19em;
+        /* width: 50px; */
+    }
+
+}
+
+@media (max-width: 576px) {
+    .achievement_heading{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .job_right_part1 p {
+        width: 100% !important;
+    }
+}

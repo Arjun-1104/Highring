@@ -7,7 +7,7 @@
     <title>Highring</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/home_img/logo.png" type="image/x-icon">
 
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,154 +25,215 @@
 </head>
 
 <body>
-    <div class="full_nav">
+    <!-- header saction start -->
+    <!-- <div class="full_nav">
         <div class="header">
             <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand logo" href="#">
-                        <img src="./image/logo.png" width="10rem">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
-                    </button>
+                <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand logo" href="#">
+                            <img src="./image/home_img/logo.png" width="10rem">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars-staggered fs-2"></i>
+                        </button>
 
-                    <div class="collapse navbar-collapse d-flex justify-content-lg-end" id="navbarNav">
-                        <ul class="navbar-nav gap-5">
-                            <li class="nav-item mx-5">
-                                <a class="nav-link active" aria-current="page" href="#">Services</a>
-                            </li>
-                            <li class="nav-item mx-5">
-                                <a class="nav-link" href="#">Expertise</a>
-                            </li>
-                            <li class="nav-item mx-5">
-                                <a class="nav-link" href="#">Vacancies</a>
-                            </li> 
-                        </ul>
-                        <div class="nav_contact mx-5">
-                            <div class="">
-                                <span class="main-btn">Contact</span>
+                        <div class="collapse navbar-collapse d-flex justify-content-lg-end" id="navbarNav">
+                            <ul class="navbar-nav gap-5">
+                                <li class="nav-item mx-5">
+                                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                                </li>
+                                <li class="nav-item mx-5">
+                                    <a class="nav-link" href="#">Expertise</a>
+                                </li>
+                                <li class="nav-item mx-5">
+                                    <a class="nav-link" href="#">Vacancies</a>
+                                </li>
+                            </ul>
+                            <div class="nav_contact mx-5">
+                                <div class="">
+                                    <span class="main-btn">Contact</span>
+                                </div>
                             </div>
-                        </div>    
-                    </div>
-                </div>
-            </nav>
+                        </div>
+                   
+                </nav>
+            </div>
         </div>
-    </div>
-    </div>
-
-    <section class="landing_banner_section mb-5">
+    </div> -->
+    <!-- header section end -->
+  <!-- Header start-->
+  <div class="full_nav">
+     <header>
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <div class="row">
-                <div class="col-6  py-5">
-                    <div class="banner_left py-5">
+          <a class="navbar-brand" href="#">
+            <img src="./image/home_img/logo.png" class="img-fluid" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fa-solid fa-bars-staggered fs-2"></i>
+        </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item me-5">
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#expertise">Expertise</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#vacancies">Vacancies</a>
+              </li>
+              <div class="nav_contact">
+                <div class="mt-sm-3 mb-sm-4">
+                    <span class="main-btn">Contact</span>
+                </div>
+            </div>           
+        </ul>
+          </div>
+        </div>
+      </nav>
+    </header> 
+    </div>
+    <!-- Header end -->
 
-                        <h1 class="banner_heading">Hello,</h1>
-                        <h1 class="banner_heading">We are</h1>
-                        <h1 class="banner_heading">Recruiters</h1>
-                        
-                        <p class="banner_prea">Developing management staff search, assessment and recruitment for the leading national and foreign compaanies.</p>
+    <!-- banner section start -->
+    <section class="landing_banner_section mb-5">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 py-5 px-md-5">
+                    <div class="banner_left py-5 ">
+                        <h1 class="banner_heading">Hello, <br>We are <br>Recruiters</h1>
+                        <p class="banner_prea">Developing management staff search, assessment and recruitment for the
+                            leading national and foreign compaanies.</p>
 
                     </div>
                     <div class="banner_button">
                         <div class="">
-                            <button class="main-btn py-4 px-5">START HIRING WITH US</button>
+                            <button class="main-btn py-4 py-md-4 ">START HIRING WITH US</button>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-                <div class="col-6 pt-5">
-                    <div class="banner_right mt-5">
-                        <img src="./image/user chat.png" class="img-fluid p-5">
+                <div class="col-lg-7 col-md-7 pt-5 ">
+                    <div class="banner_right text-center pt-5 ">
+                        <img src="./image/home_img/green cicle.png" alt="" class="green_circle">
+                        <img src="./image/home_img/yellow circle.png" alt="" class="yellow_circle">
+                        <img src="./image/home_img/safe.png" alt="" class="safe_circle">
+
+                        <img src="./image/home_img/user chat.png" class="img-fluid user_chat">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- banner section end -->
 
+    <!-- achievement section start -->
     <section class="landing_achievement mb-5">
         <div class="container">
             <div class="row">
-                <div class="">
+                <div class="col-12">
                     <h2 class="achievement_heading">Our 18 years of Achievements</h2>
                     <h3 class="achievement_subheading py-3">With our super power reached with us</h3>
-                </div> 
+                </div>
             </div>
-            <div class="row justify-content-around align-items-center my-5 flex-wrap gap-md-4">
-                <div class="col-lg-2 col-md-3 acheivement_box text-center">
+            <div class="row justify-content-center align-items-center my-5 flex-wrap gap-5">
+                <div class="acheivement_box ">
                     <h1>14</h1>
                     <span>years of experiences</span>
                 </div>
-                <div class="col-lg-2 col-md-3 acheivement_box text-center">
+                <div class=" acheivement_box ">
                     <h1>40</h1>
                     <span>Countries</span>
                 </div>
-                <div class="col-lg-2 col-md-3 acheivement_box text-center">
+                <div class=" acheivement_box ">
                     <h1>50</h1>
                     <span>Clients</span>
                 </div>
-                <div class=" col-lg-2 col-md-3 acheivement_box text-center">
+                <div class=" acheivement_box">
                     <h1>60K</h1>
                     <span>Resumes</span>
                 </div>
             </div>
         </div>
     </section>
+    <!-- achievement section end -->
 
+    <!-- services section start -->
     <section class="landing_service">
         <div class="container">
             <h1 class="big_heading">Services</h1>
-            <div class="row justify-content-around gap-5">
-                <div class="col-lg-5 service_box bo">
-                    <i class="fa-regular fa-star" style="color: rgba(247, 118, 31, 1);"></i>
+            <div class="row justify-content-between gap-5">
+                <div class="col-md-5 service_box bo">
+                    <img src="./image/home_img/Fill 1162.png" class=" ">
                     <h1>IT recruiting <br> in Ukraine</h1>
-                    <p class="banner_prea px-0">Developing management staff search, assessment recruitment for the leading national and foreign Developing management staff search, assessment for the leading national and foreign compaanies.</p>
+                    <p class="banner_prea px-0">Developing management staff search, assessment recruitment for the
+                        leading national and foreign Developing management staff search, assessment for the leading
+                        national and foreign compaanies.</p>
                 </div>
-                <div class="col-lg-5 service_box bo">
-                    <img src="./image/Fill 971.png" class="img-fluid pb-5">
+                <div class="col-md-5 service_box bo">
+                    <img src="./image/home_img/Fill 971.png" class="">
                     <h1>International <br>IT recruiting</h1>
                     <p class="banner_prea px-0">Developing management staff search, assessment
-                        recruitment for the leading national and foreign 
-                        Developing management staff search, assessment 
+                        recruitment for the leading national and foreign
+                        Developing management staff search, assessment
                         for the leading national and foreign compaanies.</p>
                 </div>
 
-                <div class=" col-lg-5 service_box bo">
-                    <img src="./image/Combined Shape.png" class="img-fluid pb-5">
+                <div class=" col-md-5 service_box bo">
+                    <img src="./image/home_img/Combined Shape.png" class="">
                     <h1>Dedicated team <br>outstaffing</h1>
                     <p class="banner_prea px-0">Developing management staff search, assessment
-                        recruitment for the leading national and foreign 
-                        Developing management staff search, assessment 
+                        recruitment for the leading national and foreign
+                        Developing management staff search, assessment
                         for the leading national and foreign compaanies.</p>
                 </div>
-                <div class="col-lg-5 service_box bo">
-                    <img src="./image/Shape.png" class="img-fluid pb-5">
+                <div class="col-md-5 service_box bo">
+                    <img src="./image/home_img/Shape.png" class="">
                     <h1>Executive<br> search </h1>
-                    <p class="banner_prea px-0">Developing management staff search, assessment recruitment for the leading national and foreign Developing management staff search, assessment for the leading national and foreign compaanies.</p>
+                    <p class="banner_prea px-0">Developing management staff search, assessment recruitment for the
+                        leading national and foreign Developing management staff search, assessment for the leading
+                        national and foreign compaanies.</p>
                 </div>
             </div>
         </div>
     </section>
+    <!-- services section end -->
 
+    <!-- job section start -->
     <section class="landing_job">
         <div class="container">
-            <div class="row  px-5">
-                <div class="col-6 px-5 job_sub_heading ">
+            <div class="row px-5 px-sm-0 ">
+                <div class="col-lg-6 px-md-5 px-sm-0 job_sub_heading ">
                     <p class="fs-4 job_small_heading my-5">Job category</p>
-                    <h1 class="display-4 fw-bold my-5 ">Explore your job by 
+                    <h1 class="display-4 fw-bold my-5 ">Explore your job by
                         most popular category</h1>
 
-                    <span class="fs-4 fw-light my-5">Cupcake danish tiramisu powder soda ginger cake. Dessert carrot cake tartsweet marzipan for fruitcake.</span>
+                    <span class="fs-4 fw-light my-5">Cupcake danish tiramisu powder soda ginger cake. Dessert carrot
+                        cake tartsweet marzipan for fruitcake.</span>
                     <div class="my-5 py-5">
                         <div class="">
                             <span class="main-btn">SEE ALL</span>
                         </div>
-                    </div>   
+                    </div>
                 </div>
-                <div class="col-6 px-5 job_right_part">
+                <div class="col-lg-6 px-md-5 px-sm-0 job_right_part ">
                     <div class="job_right_part1">
                         <h2 class="my-4 pt-4 fw-bold">Senior Website Designer</h2>
-                        <p class="fs-5 my-4 w-50">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+                        <p class="fs-5 my-4 w-50">Build better customer relationships easily messaging that provides a
+                            more personal experience for you and your customers.</p>
                         <div class="my-4 pb-5">
                             <span class="fs-5 fw-bold">View</span>
                             <i class="fa-solid fa-arrow-right"></i>
@@ -190,93 +251,135 @@
             </div>
         </div>
     </section>
+    <!-- job section end -->
 
+    <!-- leadership card section start -->
     <section class="landing_leadership my-5">
         <div class="container">
             <div class="col-12">
                 <h2 class="achievement_heading">Our leadership</h2>
-                <h3 class="achievement_subheading py-3 text-black w-75 mx-auto">Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor sit ipsum malesuada a, duis volutpat.</h3>
-            </div> 
+                <h3 class="achievement_subheading py-3 text-black w-75 mx-auto">Convallis turpis erat tempus, viverra
+                    aliquet. Nullam viverra nam auctor sit ipsum malesuada a, duis volutpat.</h3>
+            </div>
             <div class="my-5">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-3 text-center card_box">
-                        <img src="./image/user1.png" class="img-fluid mb-5">
-                        <h2 class="fs-1 fw-bold">Andry Ford</h2>
-                        <span class="fs-2">CEO at Whatever</span>
+                <div class="row justify-content-between align-items-center flex-wrap ">
+                    <div class="col-lg-3 col-md-5 text-center card_box">
+                        <img src="./image/home_img/user1.png" class="img-fluid mb-4">
+                        <h2 class="">Andry Ford</h2>
+                        <span >CEO at Whatever</span>
                     </div>
-                    <div class="col-3 text-center card_box">
-                        <img src="./image/user2.png" class="img-fluid mb-5">
-                        <h2 class="fs-1 fw-bold">Andry Ford</h2>
-                        <span class="fs-2">CEO at Whatever</span>
+                    <div class="col-lg-3 col-md-5 text-center card_box">
+                        <img src="./image/home_img/user2.png" class="img-fluid mb-4">
+                        <h2 class="">Andry Ford</h2>
+                        <span>CEO at Whatever</span>
                     </div>
-                    <div class="col-3 text-center card_box">
-                        <img src="./image/user3.png" class="img-fluid mb-5">
-                        <h2 class="fs-1 fw-bold">Andry Ford</h2>
-                        <span class="fs-2">CEO at Whatever</span>
+                    <div class="col-lg-3 col-md-5 text-center card_box">
+                        <img src="./image/home_img/user3.png" class="img-fluid mb-4">
+                        <h2 >Andry Ford</h2>
+                        <span >CEO at Whatever</span>
                     </div>
-                    <div class="col-3 text-center card_box">
-                        <img src="./image/user4.png" class="img-fluid mb-5">
-                        <h2 class="fs-1 fw-bold">Andry Ford</h2>
-                        <span class="fs-2">CEO at Whatever</span>
+                    <div class="col-lg-3 col-md-5 text-center card_box">
+                        <img src="./image/home_img/user4.png" class="img-fluid mb-4">
+                        <h2>Andry Ford</h2>
+                        <span>CEO at Whatever</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- leadership card section end -->
 
+
+    <!-- footer banner section start -->
     <section class="landing_footer_banner text-center py-5">
         <div class="container py-5">
             <div class="row">
-                <div class="col-12 flex-wrap">
-                    <span class="display-3 fw-bold text-white">Get most exciting job </span>
-                    <div class="banner_button d-inline-block ms-5">
+                <div class="">
+                    <span>Get most exciting job</span>
+                    <div class="banner_button d-inline-block ms-md-5">
                         <div class="">
                             <button class="py-4 px-5 start">START HIRING WITH US</button>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- footer banner section end -->
 
-    <section class="landing_footer bo">
+
+    <!-- footer section start -->
+    <section class="landing_footer">
         <div class="footer">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col-lg-3">
                         <div class="mb-4">
-                            <img src="./image/logo.png" class="img-fluid">
+                            <img src="./image/home_img/logo.png" class="img-fluid">
                         </div>
                         <div>
                             <p class="footer_heading">Siphome, LLC</p>
-                            <p class="footer_subheading">The New Building 2320</p> 
+                            <p class="footer_subheading">The New Building 2320</p>
                             <p class="footer_subheading">Lang Avenue, Park Valley, Utah,</p>
-                            <p class="footer_subheading">United States.</p> 
+                            <p class="footer_subheading">United States.</p>
                             <p class="footer_subheading">84329</p>
 
                             <br>
                             <br>
-                            
+
                             <p class="footer_heading d-inline ">P:</p>
                             <p class="footer_subheading  d-inline"> +1 176 909 2900</p>
                             <br>
                             <p class="footer_heading d-inline ">E:</p>
                             <p class="footer_subheading d-inline "> siphome@gmail.com</p>
-                               
-                                 
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="mb-4">
-                            <h3>About</h3>
-                        </div>      
+                    <div class="col-lg-3 mt-3">
+                        <div class="mb-4 mt-5">
+                            <h3 class="footer_heading">Navigation</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <div class="mb-4 mt-5">
+                            <h3 class="footer_heading">About</h3>
+                            <ul class="mt-4">
+                                <li class=""><a href="" class="">Contact Us</a></li>
+                                <li><a href="">Privacy & Policy</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-3">
+                        <div class="mb-4 mt-5">
+                            <h3 class="footer_heading">Stay Connected</h3>
+                            <ul class=" mt-4">
+                                <li><i class="fa-brands fa-square-facebook icon_style" style="color: #0d61a0;"></i><a href="">Facebook</a></li>
+                                <li><i class="fa-brands fa-twitter icon_style" style="color: #34a4f9;"></i><a href="">Twitter</a></li>
+                                <li><img src="./image/home_img/instagram.svg" class="icon_style"><a href="">Instagram</a></li>
+                                
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- footer section end -->
 
-    
+    <!-- copyright section start -->
+    <section class="landing_copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="fs-3">Copyright© 2022. Highring Pvt. Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copyright section end -->
+
+
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
