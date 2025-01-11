@@ -1,23 +1,17 @@
 @media (max-width: 1400px) {
     .banner_right .green_circle{
-        /* position: absolute; */
-        /* top: 6rem; */
         right: 15rem;
     }
     
     .banner_right .yellow_circle{
-        /* position: absolute;
-        bottom: 34rem; */
         left: 8.5rem;
     }
     
     .banner_right .safe_circle{
-        /* position: absolute;
-        bottom: 21.5rem; */
         right: 8.5rem;
-    
     }
 }
+
 @media (max-width: 1200px) {
     .banner_heading {
         font-size: 7rem;
@@ -29,31 +23,25 @@
         font-size: 4rem;
     }
     .banner_right .green_circle{
-        /* position: absolute; */
-        /* top: 6rem; */
-        /* right: 15rem; */
         width: 70px;
     }
     
     .banner_right .yellow_circle{
-        /* position: absolute; */
         bottom: 28rem;
         left: 7.5rem;
         width: 40px;
     }
     
     .banner_right .safe_circle{
-        /* position: absolute; */
         bottom: 18rem;
         right: 7rem;
         width: 50px;
     }
-
 }
 
 
 @media (max-width: 992px) {
-    .active {
+    .navbar-nav .nav-item .nav-link.active {
         text-underline-offset: 0.5rem !important;
     }
     .banner_heading {
@@ -69,7 +57,8 @@
     .banner_button button{
         width: 32rem;
     }
-    .landing_service .big_heading {
+    .landing_service .big_heading, 
+    .landing_expertise .big_heading {
         font-size: 6rem;
         margin: 10rem 0rem;
     }
@@ -85,35 +74,22 @@
         width: 500px;
         height: 500px;
     }
-    .banner_right .green_circle{
-        /* position: absolute; */
-        /* top: 6rem; */
-        /* right: 15rem; */
-        /* width: 70px; */
-    }
-    
-    .banner_right .yellow_circle{
-        /* position: absolute; */
-        /* bottom: 28rem;
-        left: 7.5rem;
-        width: 40px; */
-    }
-    
+
     .banner_right .safe_circle{
-        /* position: absolute; */
         bottom: 16.5rem;
-        /* right: 7rem;
-        width: 50px; */
     }
 
 }
 
 @media (max-width: 768px) {
-    .achievement_heading{
+    .achievement_heading,
+    .leadership_heading,
+    .achi_heading {
         font-size: 3.5rem;
         line-height: 4rem;
     }
-    .achievement_subheading{
+    .achievement_subheading,
+    .leadership_subheading {
         font-size: 2rem;
     }
     .service_box img {
@@ -121,26 +97,31 @@
         margin-bottom: 2rem;
     }
     .banner_right .green_circle{
-        /* position: absolute; */
-        /* top: 6rem; */
         right: 25em;
-        /* width: 70px; */
     }
     
     .banner_right .yellow_circle{
-        /* position: absolute; */
         bottom: 27em;
         left: 19em;
-        /* width: 40px; */
     }
     
     .banner_right .safe_circle{
-        /* position: absolute; */
-        /* bottom: 16.5rem; */
         right: 19em;
-        /* width: 50px; */
     }
-
+    .card_box h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .card_box span{
+        font-size: 2rem;
+    }
+    .about_banner .about_img1 {
+        width: 50em;
+    }
+    .achi_work_heading{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -150,5 +131,17 @@
     }
     .job_right_part1 p {
         width: 100% !important;
+    }
+    .landing_footer_banner span{
+        font-size: 3rem;
+    }
+    .about_banner .about_img1 {
+        width: 40em;
+    }
+    .about_banner .about_banner_box,
+    .recruit_map_section .recruit_banner_box{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 2rem;
     }
 }
