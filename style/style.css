@@ -84,12 +84,13 @@ button {
     border: 2px solid red;
 }
 
-.navbar-brand img {
+.navbar-brand img{
     width: 16.6rem;
+    margin: 0rem 0.7rem;
 }
 
 #navbarNav ul .nav-item {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 3.2rem;
 }
 
@@ -108,17 +109,20 @@ button {
 
 .nav-item .nav-link {
     color: var(--black-color);
+    
 
 }
-
+section{
+    margin: 5rem 0rem;
+}
 .navbar-nav .nav-item .nav-link.active {
     text-decoration: underline 4px solid var(--bg-orange) !important;
-    text-underline-offset: 4rem !important;
+    text-underline-offset: 3.5rem !important;
     color: var(--bg-orange) !important;
 }
 
 .landing_banner_section {
-    margin-top: 8.8rem;
+    margin-top: 8.3rem;
     background: linear-gradient(180deg, #FEF1E9 0%, rgba(254, 241, 233, 0) 100%);
 }
 
@@ -126,7 +130,7 @@ button {
     font-size: 9rem;
     font-weight: 700;
     line-height: 10rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     color: var(--light-blue-color);
 }
 
@@ -137,7 +141,7 @@ button {
     color: var(--secondary-color);
     line-height: 3rem;
     margin: 3rem 0rem;
-    padding: 1rem;
+    /* padding: 1rem; */
 
 }
 
@@ -223,10 +227,11 @@ button {
     font-size: 7rem;
     font-weight: 700;
     line-height: 7rem;
-    margin: 15rem 0rem 10rem 0rem;
+    margin: 10rem 0rem 10rem 0rem;
 }
 
 .landing_service .service_box {
+    
     border-radius: 2.4rem;
     border: 2px solid rgba(253, 235, 255, 1);
     padding: 3rem;
@@ -237,6 +242,7 @@ button {
 .service_box img {
     width: 5rem;
     height: 5rem;
+    margin: 2rem 0rem 3rem 0rem;
 }
 
 .service_box h1 {
@@ -245,49 +251,69 @@ button {
     line-height: 6rem;
 }
 
-.landing_expertise {
-    padding-left: 8rem;
+.landing_expertise button {
+   border: none;
+   background: var(--bg-white);
+   color: rgba(17, 19, 30, 0.2)
 }
+.landing_expertise button:hover {
+    color: var(--orange-color);
+ }
 
-.landing_expertise .carousel-item {
+
+.carousel_item {
+   
+    margin-left: 11rem;
+    height: 58rem;
+    overflow: hidden;   
+
+}
+.carousel_item .item_upper_div{
     background-color: rgba(247, 118, 31, 1);
-    border-bottom-left-radius: 140px;
+    border-bottom-left-radius: 200px;
+}
+.carousel_item .item{
+    width: 33%;
+    transition: 1s;
 
 }
 
-.landing_expertise .expertise_box {
+ .expertise_box {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    width: 41rem;
-    height: 31rem;
+    margin: 20px 10px;
+    /* height: 30rem; */
 }
 
-.landing_expertise .expertise_box h2 {
-    font-family: var(--inter-font);
+.expertise_box h2 {
     font-size: 4rem;
     font-weight: 700;
     line-height: 70px;
 
 }
-
+.expertise_box img{
+    width: 120px;
+    height: 120px;
+}
 .job_small_heading {
     font-family: var(--imprima-font);
     color: rgba(243, 118, 34, 1);
     font-weight: 600;
 }
 
-.job_right_part1,
-.job_right_part2,
-.job_right_part3 {
-    border-left: 4px solid rgba(234, 234, 234, 1);
-    padding-left: 2rem;
-    border-radius: 5px;
-
+.job_right_part1 .only_border,
+.job_right_part2 .only_border,
+.job_right_part3 .only_border{
+    border: 3px solid rgba(234, 234, 234, 1); 
+    margin-right: 2rem;
+    border-radius: 20px;
 }
 
-.job_right_part1 {
-    border-left: 4px solid rgba(243, 118, 33, 1);
+.job_right_part1 .only_border {
+    /* border: 3.5px solid rgba(234, 234, 234, 1); */
+    border-radius: 20px;
+    border: 3px solid rgba(243, 118, 33, 1);
 }
 
 .card_box {
@@ -310,8 +336,7 @@ button {
     text-align: center;
 }
 
-.landing_footer_banner span {
-    font-family: var(--inter-font);
+.landing_footer_banner p {
     font-size: 4.5rem;
     font-weight: 600;
     line-height: 5.5rem;
@@ -328,7 +353,7 @@ button {
 
 .landing_footer_banner {
     background-color: var(--bg-orange);
-    margin: 150px 0px 75px 0px;
+    /* margin: 150px 0px 75px 0px; */
 }
 
 .landing_footer .footer_heading {
