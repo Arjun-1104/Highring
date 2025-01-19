@@ -192,50 +192,50 @@
                         style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <form class="col-lg-7 mt-5 px-md-5 px-sm-0 p-4">
+                <form class="col-lg-7 mt-5 px-md-5 px-sm-0 p-4" id="getInTouch">
                     <h1>Get in Touch</h1>
                     <p class="my-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                         industries for previewing layouts and visual </p>
                     <div class="d-flex gap-5 flex-wrap justify-content-between">
                         <div class="getin_subheading col-5">
-                            <label for="">NAME</label>
-                            <input type="text" class="d-block col-12" placeholder="Enter your name...">
+                            <label for="username">NAME</label>
+                            <input type="text" class="d-block col-12" id="username" value="dff" name="username" placeholder="Enter your name...">
                         </div>
                         <div class="getin_subheading col-5">
-                            <label for="">EMAIL ADDRESS</label>
-                            <input type="text" class="d-block col-12" placeholder="Your email address...">
+                            <label for="useremail">EMAIL ADDRESS</label>
+                            <input type="email" class="d-block col-12" id="useremail" value="arun@gmail.com"  name="useremail" placeholder="Your email address...">
                         </div>
                         <div class="getin_subheading col-5">
-                            <label for="">TIME SLOT</label>
-                            <select type="" class="d-block col-12">
-                                <option value="">Morning Shift</option>
-                                <option value="">Evening Shift</option>
-                                <option value="">Night Shift</option>
+                            <label for="usertimeSlot">TIME SLOT</label>
+                            <select type="" class="d-block col-12" id="usertimeSlot" name="usertimeSlot">
+                                <option value="Morning Shift">Morning Shift</option>
+                                <option value="Evening Shift">Evening Shift</option>
+                                <option value="Night Shift">Night Shift</option>
                             </select>
                         </div>
                         <div class="getin_subheading col-5">
-                            <label for="">DEPARTMENT</label>
-                            <select type="" class="d-block col-12">
+                            <label for="userDepartment">DEPARTMENT</label>
+                            <select type="" class="d-block col-12" id="userDepartment" name="userDepartment">
                                 <option value="" disabled>Select Department</option>
-                                <option value="">Finance Department</option>
-                                <option value="">Gaming Department</option>
-                                <option value="">Development Department</option>
+                                <option value="Finance Department">Finance Department</option>
+                                <option value="Gaming Department">Gaming Department</option>
+                                <option value="Development Department">Development Department</option>
                             </select>
                         </div>
                         <div class="getin_subheading col-12">
-                            <label for="">MESSAGES</label>
-                            <textarea class="d-block col-12" rows="5" placeholder="Enter your messages..."></textarea>
+                            <label for="userMessage">MESSAGES</label>
+                            <textarea class="d-block col-12" rows="5" name="userMessage" id="userMessage" placeholder="Enter your messages..."></textarea>
                         </div>
                     </div>
                     <div class="getin_submit_section d-flex justify-content-between my-5">
-                        <label for="fileSubmit" class="d-flex align-items-center">
+                        <label for="fileInput" class="d-flex align-items-center">
                             <div class="">
                                 <i class="fa-solid fa-paperclip"></i>
                             </div>
                             <span class="ms-4">Upload CV</span>
-                            <input id="fileSubmit" type="file" accept=".pdf,.docx,.doc" style="display:none;">
+                            <input id="fileInput" type="file" accept=".pdf,.docx,.doc" style="display:none;">
                         </label>
-                        <button>Send</button>
+                        <button type="submit">Send</button>
 
                     </div>
                 </form>
